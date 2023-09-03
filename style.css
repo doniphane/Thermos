@@ -1,0 +1,50 @@
+body{
+    background-color: #1e1b1b;
+    min-width: 100vh;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+  }
+  
+
+  .card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 400px;
+  }
+  
+
+  .card p {
+    margin: 8px 0;
+  }
+  .cardMaximum,
+  .cardMinimum,
+  .cardPressure,
+  .humidity {
+    margin-top: 15px;
+    border-top: 1px solid #ce1d1d;
+    padding-top: 10px;
+  }
+  
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.bxs-thermometer {
+    color: #ce1d1d;
+}
